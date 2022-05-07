@@ -13,6 +13,12 @@ import { CheckoutComponent } from './features/checkout/checkout.component';
 import { ShopComponent } from './features/shop/shop.component';
 import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { OrdersComponent } from './features/orders/orders.component';
+import { LoginComponent } from './core/login/login.component';
+import { SignupComponent } from './core/signup/signup.component';
+import { ForgotPasswordComponent } from './core/forgot-password/forgot-password.component';
+import { ProfileDetailsComponent } from './core/profile-details/profile-details.component';
+import { AddressComponent } from './features/address/address.component';
+import { EditAddressComponent } from './features/edit-address/edit-address.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { OrdersComponent } from './features/orders/orders.component';
     CheckoutComponent,
     ShopComponent,
     DashboardComponent,
-    OrdersComponent
+    OrdersComponent,
+    LoginComponent,
+    SignupComponent,
+    ForgotPasswordComponent,
+    ProfileDetailsComponent,
+    AddressComponent,
+    EditAddressComponent
   ],
   imports: [
     SlickCarouselModule,
