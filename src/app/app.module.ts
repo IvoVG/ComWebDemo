@@ -8,6 +8,7 @@ import { HeaderComponent } from './features/header/header.component';
 import { FooterComponent } from './features/footer/footer.component';
 import { HomeComponent } from './features/home/home.component';
 import { ProductsingleComponent } from './features/productsingle/productsingle.component';
+import { CartComponent } from './features/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductsingleComponent } from './features/productsingle/productsingle.c
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ProductsingleComponent
+    ProductsingleComponent,
+    CartComponent
   ],
   imports: [
     SlickCarouselModule,
