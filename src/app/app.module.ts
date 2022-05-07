@@ -11,6 +11,8 @@ import { ProductsingleComponent } from './features/productsingle/productsingle.c
 import { CartComponent } from './features/cart/cart.component';
 import { CheckoutComponent } from './features/checkout/checkout.component';
 import { ShopComponent } from './features/shop/shop.component';
+import { DashboardComponent } from './features/dashboard/dashboard.component';
+import { OrdersComponent } from './features/orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ShopComponent } from './features/shop/shop.component';
     ProductsingleComponent,
     CartComponent,
     CheckoutComponent,
-    ShopComponent
+    ShopComponent,
+    DashboardComponent,
+    OrdersComponent
   ],
   imports: [
     SlickCarouselModule,
